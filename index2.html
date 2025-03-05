@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <title>imagenes</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen1.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">Boxer 150</p>
+                    <span class="precio">$ 9,000,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen2.jpeg" alt="">
+                    </div>
+                    <p class="descripcion" id>Boxer ct 100 </p>
+                    <span class="precio">$ 5,000,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen3.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">XTZ 150
+                    </p>
+                    <span class="precio">$ 12,000,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen4.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">XTZ 250</p>
+                    <span class="precio">$ 25,000,000</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen5.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">XT 660</p>
+                    <span class="precio">$ 30,000,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen6.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">SZR </p>
+                    <span class="precio">$ 9,500,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen11.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">N-MAX 155</p>
+                    <span class="precio">$ 20,000,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen9.jpeg" alt="">
+                    </div>
+                    <p class="descripcion">DR 650</p>
+                    <span class="precio">$ 28,000,000</span>
+                </div>
+            </div> 
+        </div> 
+
+        <h1></h1>
+         
+        <a href="index.html" class="btn" >regresar</a>
+
+
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="imagen8.jpeg" alt="" id="img">
+                <h2 id="modelo">DT 125</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 18,000,000</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
